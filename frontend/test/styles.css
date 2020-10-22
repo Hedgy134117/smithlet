@@ -1,0 +1,25 @@
+#board {
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    padding: 12px;
+    height: 100%;
+    overflow-x: scroll;
+    background-color: rgb(238, 238, 238);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    min-width: 300px;
+}
+
+.title, .card {
+    margin: 12px;
+    padding: 16px;
+    background-color: lightgray
+}
+.card p:first-of-type {
+    margin-bottom: 12px;
+}
