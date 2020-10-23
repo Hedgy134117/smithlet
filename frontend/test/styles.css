@@ -16,12 +16,16 @@ section {
     max-height: 80vh;
     overflow-y: scroll;
 }
+section.over { background-color: lightblue; } 
+section.over * {
+  /* prevent the elements in the section messing up the drag events */
+  pointer-events: none;
+}
 
 .title, .card {
     margin: 12px;
     padding: 16px;
     background-color: lightgray
 }
-.card p:first-of-type {
-    margin-bottom: 12px;
-}
+.card p:first-of-type { margin-bottom: 12px; }
+.card:hover { cursor: move; }
