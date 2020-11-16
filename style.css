@@ -21,7 +21,7 @@ h2 {
 }
 
 .sidebar {
-    width: 200px;
+    width: 100px;
     height: 100%;
     background-color: #ffffff;
 }
@@ -53,4 +53,15 @@ h2 {
 }
 .column__card:first-of-type {
     margin-top: 12px;
+}
+.card__avatar {
+    position: absolute;
+    left: 420px;
+    border-radius: 50%;
+}
+.card__title {
+    margin-bottom: 12px;
+}
+.card__description {
+    line-height: 1.2;
 }
