@@ -55,11 +55,11 @@ h2 {
     margin-top: 12px;
 }
 .card__avatar {
-    position: absolute;
-    left: 420px;
+    float: right;
     border-radius: 50%;
 }
 .card__title {
+    display: inline-block;
     margin-bottom: 12px;
 }
 .card__description {
